@@ -1,24 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { NavBar } from "./components/NavBar";
+import { Main } from "./components/Main";
+import Particles from "react-particles-js";
+import { Scroll } from "./components/Scroll";
+import { CardList } from "./components/CardList";
 
 function App() {
+  const ScrollHandler = Scroll();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+
+      {ScrollHandler ? (
+        <Particles className="particle2" />
+      ) : (
+        <Particles
+          className="particle"
+          params={{
+            particles: {
+              number: {
+                value: 400,
+                density: {
+                  enable: true,
+                  value_area: 800,
+                },
+              },
+            },
+          }}
+        />
+      )}
+      <Main />
+      <CardList />
     </div>
   );
 }
