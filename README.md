@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+View Live at https://languagexange.github.io/Experiment/
+----------------
+Experiment: Particle.js & Scroll.js with React
+
 
 ## Available Scripts
 
