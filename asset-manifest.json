@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/LanguageXange/Experiment/static/css/main.42b59cf5.chunk.css",
+    "main.js": "/LanguageXange/Experiment/static/js/main.345b2857.chunk.js",
+    "main.js.map": "/LanguageXange/Experiment/static/js/main.345b2857.chunk.js.map",
+    "runtime-main.js": "/LanguageXange/Experiment/static/js/runtime-main.0fc29384.js",
+    "runtime-main.js.map": "/LanguageXange/Experiment/static/js/runtime-main.0fc29384.js.map",
+    "static/js/2.d2eabe9c.chunk.js": "/LanguageXange/Experiment/static/js/2.d2eabe9c.chunk.js",
+    "static/js/2.d2eabe9c.chunk.js.map": "/LanguageXange/Experiment/static/js/2.d2eabe9c.chunk.js.map",
+    "index.html": "/LanguageXange/Experiment/index.html",
+    "precache-manifest.5059b064070516e5434992fcde6d84ce.js": "/LanguageXange/Experiment/precache-manifest.5059b064070516e5434992fcde6d84ce.js",
+    "service-worker.js": "/LanguageXange/Experiment/service-worker.js",
+    "static/css/main.42b59cf5.chunk.css.map": "/LanguageXange/Experiment/static/css/main.42b59cf5.chunk.css.map",
+    "static/js/2.d2eabe9c.chunk.js.LICENSE.txt": "/LanguageXange/Experiment/static/js/2.d2eabe9c.chunk.js.LICENSE.txt",
+    "static/media/laptop2.jpg": "/LanguageXange/Experiment/static/media/laptop2.29380e8b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fc29384.js",
+    "static/js/2.d2eabe9c.chunk.js",
+    "static/css/main.42b59cf5.chunk.css",
+    "static/js/main.345b2857.chunk.js"
+  ]
+}
